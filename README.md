@@ -1,8 +1,5 @@
 # 🔐 Password Strength Checker
 
-**DecodeLabs Industrial Training Kit | Batch 2026**
-**Project 1 — Cybersecurity Track**
-
 ---
 
 ## What This Project Does

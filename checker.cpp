@@ -40,12 +40,10 @@ std::string to_lower(const std::string& s) {
                    [](unsigned char c){ return std::tolower(c); });
     return result;
 }
-
 bool is_common_password(const std::string& password) {
     std::string lower = to_lower(password);
     return COMMON_PASSWORDS.count(lower) > 0;
 }
-
 bool has_repeated_chars(const std::string& password) {
     for (size_t i = 0; i + 2 < password.size(); ++i) {
         if (password[i] == password[i+1] && password[i+1] == password[i+2]) {

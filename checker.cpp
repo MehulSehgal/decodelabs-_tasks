@@ -5,7 +5,6 @@
 #include <algorithm>
 #include <cctype>
 #include <iomanip>
-
 const std::set<std::string> COMMON_PASSWORDS = {
     "password", "123456", "password123", "admin", "letmein",
     "qwerty", "abc123", "monkey", "1234567890", "superman",
